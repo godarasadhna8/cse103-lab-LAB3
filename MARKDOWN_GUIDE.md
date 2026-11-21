@@ -1,29 +1,51 @@
-Heading 1 (largest)
-Heading 2
-Heading 3
-Bold text
+# Heading 1 (largest)
 
-Italic text
+## Heading 2
 
-Strikethrough
+### Heading 3
 
-Unordered List
-Item A
-Item B
-Nested Item B1
-Ordered List
-First step
-Second step
-Inline Code
-print("Hello")
+**Bold text**
 
-Code Block
+*Italic text*
+
+~~Strikethrough~~
+
+## Unordered List
+
+- Item A
+- Item B
+  - Nested Item B1
+
+## Ordered List
+
+1. First step
+2. Second step
+
+## Inline Code
+
+`print("Hello")`
+
+## Fenced Code Block
+
+```python
 def greet(name):
     return f"Hello, {name}!"
-Link
-GitHub
+```
 
-Table
-Column 1	Column 2	Column 3
-Left	Centre	Right
-An important note or reference goes here.
+## Hyperlink
+
+[GitHub](https://github.com)
+
+## Table
+
+| Column 1 | Column 2 | Column 3 |
+|----------|:--------:|----------:|
+| Left     | Centre   | Right     |
+
+## Blockquote
+
+> An important note or reference goes here.
+
+## Horizontal Divider
+
+---
